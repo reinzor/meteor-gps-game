@@ -1,0 +1,47 @@
+<head>
+<title>AppeldoornDag 2014</title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+</head>
+
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Appeldoorndag 2014</a>
+    </div>
+  </div>
+</div>
+
+<div id="main">
+	{{> point}}
+	{{> map}}
+</div><!-- /.container -->
+</body>
+
+<template name="map">
+	<div id="map" data-title="map" data-snap-ignore="true">
+		<div id="map-canvas"> 
+		</div>
+	</div>
+</template>
+
+<template name="point">
+	{{#if p}}
+	<div id="point" class="modal" style="display: block;">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h4 class="modal-title">{{p.name}} ({{p.location.latitude}},{{p.location.longitude}})</h4>
+				</div>
+				<div class="modal-body">
+					<p>{{p.content}}</p>
+				</div>
+				<div class="modal-footer">
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	{{/if}}
+</template>

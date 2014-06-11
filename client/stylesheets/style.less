@@ -1,0 +1,24 @@
+// Import Vendors
+@import "../../packages/less-bootstrap-3/lib/less/bootstrap.import.less";
+
+html, body { 
+  height: 100%; 
+}
+
+#main {
+  position: relative; /* 1. Position relative because of absolute child elements */
+  padding: 44px 0 0 0; /* 2. Using padding to define strech-able space */
+  box-sizing: border-box; /* 3. Box sizing to subtract padding and border from the 100% height of this element when child elements define 100% height */
+	height: 100%;
+}
+
+#main > div {
+  height: 100%;
+}
+
+#map-canvas {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px
+}
