@@ -164,7 +164,7 @@ setupLocations = function() {
 
 // * * * * * * * * Application Behavior * * * * * ** * * ** 
 
-DISTANCE_THRESHOLD = 10;
+DISTANCE_THRESHOLD = 5;
 
 function checkIfUserIsNearPoint() {
     var lat = gmaps.geoPosition.position.k;
