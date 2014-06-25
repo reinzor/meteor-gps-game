@@ -229,6 +229,10 @@ function checkIfUserIsNearPoint() {
             Session.set('current_point',point.name);
         } 
     });
+    if (Session.get('current_point'))
+	$("#point").show("modal");
+    else
+        $("#point").hide("modal");
 }
 
 // * * * * * * * * HELPER FUNCTIONS * * * * * ** * * ** 
