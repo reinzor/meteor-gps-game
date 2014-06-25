@@ -35,7 +35,14 @@
 					<h4 class="modal-title">{{p.name}} ({{p.location.latitude}},{{p.location.longitude}})</h4>
 				</div>
 				<div class="modal-body">
-					{{p.content}}
+					<a href="#" class="thumbnail">
+			          <img alt="100%x180" style="height: 180px; width: 100%; display: block;" src="{{p.img}}">
+			        </a>
+					<ul>
+					{{#each p.content}}
+						<li>{{this}}</li>
+					{{/each}}
+					</ul>
 				</div>
 				<div class="modal-footer">
 				</div>
