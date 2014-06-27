@@ -201,7 +201,7 @@ setupLocations = function() {
             "longitude":6.028275
         },
         "content" : [
-        "TODO: Maak en schrijf op: De opsomming van geboortedata van opa, oma, kinderen en kleinkinderen Appeldoorn, op leeftijd van groot naar klein. (kalde kant laten we even buiten beschouwing)",
+        "TODO: Hoe groot zijn de voeten van de familie eigenlijk? Maak en schrijf op: De opsomming van de schoenmaten van opa, oma, kinderen en kleinkinderen Appeldoorn, op schoenmaat van groot naar klein. (kalde kant laten we even buiten beschouwing)",
         "CODE: Slijmerig, maar smakelijk. Hakuna Matata!"
         ],
         "img" : "http://www.jandurkspolder.nl/ooievaar%20JDP.JPG"
