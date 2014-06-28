@@ -215,6 +215,7 @@ setupLocations = function() {
         },
         "content" : [
         "Vraag: Welk gebouw stond er vroeger op de plek waar nu 'ut Valdere' is. In welk jaar werd dit gebouw gesloopt en wie zat er boven op het dak om het gebouw voor sloop te behoeden.",
+	"TODO: Schrijf op: 15 ouderwetse bijnamen van Sevenumse of Kronenbergse mensen",
         "CODE: Het is geen Jan Wolkers"
         ],
         "img" : "http://1.nieuwsbladcdn.be/Assets/Images_Upload/2012/08/29/A2_GOJ3U1KBC010A2_bejaarden01.jpg.h380.jpg"
